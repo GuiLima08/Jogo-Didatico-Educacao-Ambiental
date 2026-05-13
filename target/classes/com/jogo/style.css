@@ -1,0 +1,58 @@
+/* Estilo para a tela de fundo (VBox) */
+.root {
+    -fx-background-color: #382942; /* Um azul bem clarinho */
+    background-color: #382942;
+}
+
+.root-death {
+    -fx-background-color: #4D0B1A; /* Um azul bem clarinho */
+    background-color: #4D0B1A;
+}
+/* Estilo para todos os Labels */
+.label {
+    -fx-text-fill: #2E8B57; /* Verde escuro */
+}
+
+.label-death {
+    -fx-text-fill: red;
+}
+
+/* Estilo para todos os Botões */
+.button {
+    -fx-background-color: #2E8B57;
+    background-color: #2E8B57;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    font-size: 14px;
+    -fx-font-weight: bold;
+    font-weight: bold;
+    -fx-background-radius: 5px; /* Bordas arredondadas */
+    -fx-padding: 10px 20px;
+    padding: 10px 20px;
+}
+
+.button-death {
+    -fx-background-color: red;
+    background-color: red;
+}
+
+.button-death:hover {
+    -fx-background-color: #FF7373;
+    background-color: #FF7373;
+}
+
+/* Efeito ao passar o mouse por cima do botão (Hover) */
+.button:hover {
+    -fx-background-color: #3CB371; /* Fica com um verde mais claro */
+    background-color: #3CB371;
+}
+
+.pane-statbar {
+    -fx-background-color: white;
+    background-color: white;
+}
+
+.pane-statbar-death {
+    -fx-background-color: red;
+    background-color: red;
+}
